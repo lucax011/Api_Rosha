@@ -2,9 +2,9 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
-const authRoutes = require('./routes/authRoutes');
-const energyRoutes = require('./routes/energyRoutes');
-const recommendationRoutes = require('./routes/recommendationRoutes');
+const authRoutes = require('/routes/authRoutes');
+const energyRoutes = require('/routes/energyRoutes');
+const recommendationRoutes = require('/routes/recommendationRoutes');
 
 dotenv.config();  // Carregar variáveis de ambiente
 
